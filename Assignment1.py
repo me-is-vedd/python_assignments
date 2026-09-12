@@ -44,9 +44,3 @@ print("After Updating:", students_dict)
 # Delete
 del students_dict[3]
 print("After Deleting:", students_dict)
-
-
-
-l = [1, 2, 3]
-init_tuple = ('Python',) * (l.__len__() - l[::-1][0])
-print(init_tuple)
